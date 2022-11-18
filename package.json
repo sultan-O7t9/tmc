@@ -1,0 +1,22 @@
+{
+  "name": "tmc",
+  "version": "1.0.0",
+  "description": "e-store in MERN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon server/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon server/server",
+    "seeder": "node server/utils/seeder.js"
+  },
+  "author": "Sultan Muhammad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
